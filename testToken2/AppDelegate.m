@@ -1,10 +1,4 @@
-//
-//  AppDelegate.m
-//  testToken2
-//
-//  Created by Assasin on 12/25/18.
-//  Copyright © 2018 ShamanUA. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
 

@@ -12,6 +12,7 @@
 		786E627121D254A6007D0C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786E627021D254A6007D0C45 /* Assets.xcassets */; };
 		786E627421D254A6007D0C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786E627221D254A6007D0C45 /* Main.storyboard */; };
 		786E627721D254A6007D0C45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 786E627621D254A6007D0C45 /* main.m */; };
+		786E628021D2552A007D0C45 /* TokenAttach.m in Sources */ = {isa = PBXBuildFile; fileRef = 786E627F21D2552A007D0C45 /* TokenAttach.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		786E627521D254A6007D0C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		786E627621D254A6007D0C45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		786E627821D254A6007D0C45 /* testToken2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testToken2.entitlements; sourceTree = "<group>"; };
+		786E627E21D2552A007D0C45 /* TokenAttach.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenAttach.h; sourceTree = "<group>"; };
+		786E627F21D2552A007D0C45 /* TokenAttach.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenAttach.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				786E627521D254A6007D0C45 /* Info.plist */,
 				786E627621D254A6007D0C45 /* main.m */,
 				786E627821D254A6007D0C45 /* testToken2.entitlements */,
+				786E627E21D2552A007D0C45 /* TokenAttach.h */,
+				786E627F21D2552A007D0C45 /* TokenAttach.m */,
 			);
 			path = testToken2;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			files = (
 				786E626F21D25498007D0C45 /* ViewController.m in Sources */,
 				786E627721D254A6007D0C45 /* main.m in Sources */,
+				786E628021D2552A007D0C45 /* TokenAttach.m in Sources */,
 				786E626C21D25498007D0C45 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +288,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shamanua.testToken2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krasnogorov.testToken2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -299,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shamanua.testToken2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krasnogorov.testToken2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
